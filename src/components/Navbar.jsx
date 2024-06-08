@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="sticky z-40 bg-white top-0 left-0 w-full border-b">
       <div className="mx-auto container w-full flex items-center justify-between">
         {/* Logo */}
-        <p className="text-2xl">Foodie</p>
+        <p className="text-2xl">Breakasta</p>
         <div className="hidden lg:flex items-center gap-2 text-[22px]  *:p-3 *:py-6 *:mb-3 *:rounded-b-md">
           {navLinks.map((nv) => (
             <Link
